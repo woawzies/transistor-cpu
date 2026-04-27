@@ -7,7 +7,7 @@
 5. 2 cycle instruction execution
 6. repeatability and stability over efficiency
 7. dedicated alu input and output registers
-8. 
+
 ## Registers
 | Register | Purpose   |
 |----------|-----------|
