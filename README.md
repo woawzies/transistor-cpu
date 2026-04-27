@@ -22,6 +22,7 @@ C is an ALU output register, so it is read-only.
 R0 and R1 are general purpose registers, so they are read-write.
 ## CPU Block Diagram
 <img width="629" height="346" alt="cpu-block-diagram" src="https://github.com/user-attachments/assets/e0be72de-ee7a-4012-a880-993bd7e96235" />
+
 ## Instructions
 | Mnemonic                     | Description                                                  |
 |------------------------------|--------------------------------------------------------------|
