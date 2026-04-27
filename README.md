@@ -16,6 +16,7 @@
 | R0       | GPR       |
 | R1       | GPR       |
 | IR       | Inst. Reg |  
+
 A and B are ALU registers, so they are write-only.  
 C is an ALU output register, so it is read-only.  
 R0 and R1 are general purpose registers, so they are read-write.
@@ -31,5 +32,6 @@ R0 and R1 are general purpose registers, so they are read-write.
 | stoc r0/r1                   | store C register to either r0 or r1                          |
 | add                          | add A register and B register and write result to C register |
 | xor                          | xor A register and B register and write result to C register |  
+
 Each instruction comes in on an 8 bit line. (S: src, D: dest, I: imm) in the form:  
 ```[ OPCODE (4) | DEST (2) | SRC (2) ]```
